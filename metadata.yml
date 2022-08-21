@@ -1,0 +1,12 @@
+---
+:id: 128022841
+:submitters:
+- :name: Amando Jimenez
+  :email: ajimenez@ucsd.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-06-07 19:32:14.837706000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-06-07 12:32:14.837706000 Z
+:status: processed
+:score: 69.0

@@ -1,0 +1,95 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalProject()> 
+
+
+<div>
+<h2 class="section">DSC106 Final</h2>
+
+<br>
+<div>
+<h3>Question 1:</h3>
+
+<div id="q1">
+
+    </div>
+    <h2>Proposed Question: If a team scores more goals are they more likely to win more games?</h2>
+    <h4>Plot:</h4>
+    <h3 class="center_plot">Relationship between Wins and Goals Scored</h3>
+    <div class = 'q1_y_axis_title'>Goals Scored</div>
+    <div id="q1_plot" class="center_plot"></div>
+    <div id = 'q1_x_axis_title' class='center_plot'></div>
+    <div id="q1_answer" >Answer: <br> Marks and Channels: <br> Point Mark and vertical/horizontal position channel<br> Color Scheme:<br> Color is Green </div>
+</div>    
+</div>
+    
+<div>
+<h3>Question 2:</h3>
+      
+<div id="q2">
+
+    </div>
+    <h2>Proposed Question: What was the attendance for each squad in England?</h2>
+    <h4>Plot:</h4>
+    <h3 class="center_plot"> Average Attendance per Game for every Team in Premier League (England) during 2021-2022 Season</h3>
+    <div id="q2_plot" class="center_plot"></div>
+    <div id = 'x_axis_title' class='center_plot'></div>
+    <div id="q2_answer" >Answer: <br> Marks and Channels: <br> Line Mark and Vertical position channel<br> Color Scheme:<br> Color is Pink and Highlight is red</div>
+
+</div>    
+
+<div>
+<h3>Question 3:</h3>
+
+<div id="q3">
+
+    </div>
+    <h2>Proposed Question: Which countries top 10 ranked teams scored the most goals in total and of those, which team scored the most?</h2>
+    <h4>Plot:</h4>
+    <h3 class="center_plot"> Goals Scored By Top 10 Teams of Each Country</h3>
+    <div id="q3_plot" class="center_plot"></div>
+    <div id = 'q3_x_axis_title' class='center_plot'></div>
+    <div id="q3_answer" >Answer: <br> Marks and Channels: <br> Line Mark. Vertical position and color channel<br> Color Scheme:<br> Color is categorical beause it is used to differentiate between teams in a single league.(d3.schemeCategory10)</div>
+</div>    
+   
+<h3>Question 4:</h3>
+<div id="radio_q4" class="center_plot">
+    <input type="radio" id="q4_Points" name="region" value="Pts" checked="checked" autocomplete="off">
+    <label for="Pts">Points</label>
+    <input type="radio" id="q4_Attendance" name="region" value="Attendance" autocomplete="off">
+    <label for="Attendance">Attendance</label>
+    
+
+</div>
+<div id="q4">
+
+</div>
+    <h2>Proposed Question: Which country in Europe scored the most points during the season? <br>and Which country in Europe had the most attendance during the season? </h2>
+    <h4>Plot:</h4>
+    <h3 class="center_plot" id="q4_title"></h3>
+    <div id="q4_plot" class="center_plot"></div>
+    <div id="q4_answer" >Answer: <br> Marks and Channels: <br> Area mark and color channel <br> Color Scheme:<br> Color is Sequential because it is used to demonstrate the least to greatest points and attendance. (d3.schemeBlues[5])</div>
+</div>  
+
+<h3>Question 5:</h3>
+<div id="q5">
+
+</div>
+    <h2>Proposed Question: What is the distribution of goal difference among teams in Spain?</h2>
+    <h4>Plot:</h4>
+    <h3 class="center_plot"> Distribution of Goal Difference of Teams in Spain </h3>
+    <h4></h4>
+    <div id="q5_plot" class="center_plot"> </div>
+    <div id="q5_answer" >Answer: <br> Marks and Channels: <br> Line mark and vertical position channel<br> Color Scheme:<br> Color is Red </div>
+</div>  
+    
+   
+</body>  
+</html>  

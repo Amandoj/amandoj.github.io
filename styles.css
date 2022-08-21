@@ -1,0 +1,33 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+div.tooltip{
+  position: absolute;
+  text-align: center;
+  width: "fit-content";
+  height: "fit-content";
+  padding: 5px;
+  background: gray;
+  pointer-events: none;
+}
+
+.selected {
+  opacity: 1 !important;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.q1_y_axis_title {
+  margin: auto;
+  text-align: center;
+  position:relative;
+  right:420px; 
+  top:25px;
+  font-size:20;
+}
